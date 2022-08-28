@@ -60,7 +60,7 @@ html {
   color: var(--error);
 }
 body {
-  margin: 4% auto 0px;
+  margin: 2% auto 0px;
   max-width: 512px;
   max-height: 512px;
   }
@@ -88,6 +88,15 @@ img.grey {
   margin-top: 12px;
 }
 img.spin {
+  transition: all .6s;
+}
+svg.spin {
+  transition: all .6s;
+}
+img.spin2 {
+  transition: all .6s;
+}
+svg.spin2 {
   transition: all .6s;
 }
 /* Rounded Dark/Light Mode Button */
