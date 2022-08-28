@@ -89,6 +89,9 @@ li.link {
 a:visited,a:active {
   color: var(--visitedcolor);
 }
+img.border {
+  border: 1px solid var(--border);
+}
 img.spin {
   transition: all .6s;
 }
