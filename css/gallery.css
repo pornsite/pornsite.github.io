@@ -1,0 +1,40 @@
+div.gallery {
+  margin: 2px;
+  float: center;
+  width: 300px;
+  height: auto;
+}
+img.gallery {
+  border: 1px solid var(--border);
+  filter: drop-shadow(1px 1px 1px var(--imgshadow));
+  width: 300px;
+  height: auto;
+}
+img.gallery:hover {
+  border: 1px solid #1967d2;
+  filter: drop-shadow(1px 1px 1px #1967d2);
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.gallery2 {
+  margin: 4px;
+  float: center;
+  width: 33%;
+  height: auto;
+}
+video.gallery2 {
+  border: 1px solid var(--border);
+  filter: drop-shadow(1px 1px 1px var(--imgshadow));
+  width: 100%;
+  height: auto;
+}
+video.gallery2:hover {
+  border: 1px solid #1967d2;
+  filter: drop-shadow(1px 1px 1px #1967d2);
+}
+.center {
+  max-width: 100%;
+  height: auto;
+}
